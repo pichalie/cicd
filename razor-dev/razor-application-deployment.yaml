@@ -16,7 +16,7 @@ spec:
         app: razor-application
     spec:
       containers:
-        - image: image-registry.openshift-image-registry.svc:5000/test-dotnet/razor-application:latest
+        - image: bastion.okd4.guru.com:8443/dotnet/razor-application:latest
           imagePullPolicy: Always
           name: razor-application
           ports:
