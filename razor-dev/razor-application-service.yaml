@@ -4,7 +4,7 @@ metadata:
   labels:
     app: razor-application
   name: razor-application
-  namespace: razor-dev
+  namespace: test-dotnet
 spec:
   type: ClusterIP
   ports:
